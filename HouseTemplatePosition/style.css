@@ -1,0 +1,40 @@
+.container {
+    width: 1513px;
+    height: 700px;
+    /* border: 1px solid green; */
+}
+
+.child-1 {
+    position: relative;
+    top: 100px;
+}
+
+.child-2 {
+    position: relative;
+    top: 100px;
+}
+
+.house-1,
+.house-2,
+.house-3,
+.house-4 {
+    position: relative;
+    display: inline-block;
+    width: 350px;
+    /* height: 300px; */
+    /* border: 2px solid red; */
+    margin: 10px;
+}
+
+img {
+    width: 100%;
+}
+
+h3 {
+    position: absolute;
+    top: 0px;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    margin: 0;
+}
