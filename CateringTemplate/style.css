@@ -1,0 +1,158 @@
+body {
+  font-family: "Times New Roman", Georgia, Serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+hr {
+  width: 80%;
+}
+
+.banner {
+  position: relative;
+}
+
+.banner img {
+  width: 100%;
+}
+
+.banner h3 {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  font-size: xx-large;
+  color: #757575;
+}
+
+.about {
+  width: 1200px;
+  height: 640px;
+  margin-left: 100px;
+}
+
+.aboutImage,
+.aboutPara {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.aboutImage {
+  width: 40%;
+  margin: 50px 0px 50px 100px;
+  padding: 40px;
+}
+
+.aboutImage img {
+  width: 80%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.aboutPara {
+  width: 40%;
+  margin: 50px 0px 50px 0px;
+  padding: 12px 24px 12px 24px;
+  text-align: center;
+}
+
+.aboutPara h3 {
+  font-size: 40px;
+  font-weight: 100;
+}
+
+.aboutPara h4 {
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+.aboutPara > .para1,
+.para2 {
+  text-align: left;
+  font-size: 18px;
+}
+
+.aboutPara > .para1 > span {
+  background-color: #f1f1f1;
+  padding: 2px 4px;
+}
+
+.aboutPara .para2 {
+  color: #757575;
+}
+
+.menu {
+  width: 1200px;
+  height: 640px;
+  margin: 0px 0px 100px 100px;
+}
+
+.menuItems,
+.menuImage {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.menuImage {
+  width: 40%;
+  margin: 50px 0px 50px 0px;
+  padding: 40px;
+}
+
+.menuImage img {
+  width: 80%;
+  height: 600px;
+  border-radius: 10px;
+}
+
+.menuItems {
+  width: 40%;
+  margin: 50px 0px 50px 100px;
+  padding: 12px 24px 12px 24px;
+  text-align: center;
+}
+
+.menuItems h3 {
+  font-size: 40px;
+  font-weight: 100;
+}
+
+.menuItems h4 {
+  font-size: 20px;
+  text-align: left;
+  font-weight: normal;
+}
+
+.menuItems p {
+  text-align: left;
+  color: #757575;
+}
+
+.contact {
+  margin: 100px;
+  padding: 20px 50px;
+}
+
+.contact input {
+  width: 100%;
+  margin: 10px 0px;
+  height: 50px;
+  border: 0.5px solid black;
+  border-left: none;
+  border-top: none;
+  border-right: none;
+}
+
+.contact h1 {
+  font-weight: 400;
+}
+
+.contact h4 {
+  color: #607d8b;
+  font-size: 18px;
+}
+
+.contact button {
+  padding: 10px;
+  border: none;
+  margin: 10px 10px 10px 0px;
+}
