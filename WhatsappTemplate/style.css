@@ -6,6 +6,7 @@
   margin-top: 100px;
   border-radius: 6%;
   background-image: url(https://i.pinimg.com/736x/8c/98/99/8c98994518b575bfd8c949e91d20548b.jpg);
+  position: relative;
 }
 
 .header {
@@ -56,7 +57,7 @@ h3 {
   font-style: normal;
   position: fixed;
   top: 182px;
-  bottom: 190px;
+  bottom: 162px;
   left: 612px;
   width: 400px;
   overflow: scroll;
@@ -123,7 +124,7 @@ h3 {
 }
 
 .dates {
-  width: 130px;
+  width: 140px;
   background-color: #161414;
   color: #bcb3b3;
   padding: 3px;
@@ -135,39 +136,37 @@ h3 {
   top: 5px;
 }
 
-.footer {
+.container > .footer {
+  position: absolute;
+  top: 488px;
+}
+
+.footer > .input {
   font-family: "Montserrat", sans-serif;
   font-size: medium;
   font-weight: 800;
-  width: 300px;
+  width: 260px;
   height: 60px;
   background-color: #363232;
   border-radius: 40px;
-  position: fixed;
-  bottom: 125px;
-  z-index: 1;
+  color: white;
+  padding: 0px 20px;
 }
 
-.footer div {
-  display: inline-block;
-  vertical-align: middle;
+.footer > .input > i {
+  margin: 8px;
 }
 
-.input i {
-  color: rgb(255, 255, 255);
-  margin: 13px;
-}
-
-.mic {
+.footer > .mic {
   width: 60px;
   background-color: green;
-  position: fixed;
-  right: 530px;
-  top: 592px;
+  right: 0px;
   color: white;
   font-size: xx-large;
   text-align: center;
-  margin-right: 6px;
   padding: 10px;
   border-radius: 50%;
+  position: absolute;
+  top: 0px;
+  right: -98px;
 }
