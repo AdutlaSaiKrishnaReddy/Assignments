@@ -1,0 +1,58 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.tool-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  background-color: black;
+  flex-wrap: wrap;
+  border-radius: 12px;
+  width: 1060px;
+}
+
+.child {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+.child-6 > i {
+  color: green;
+}
+
+.child-9 {
+  text-decoration: underline;
+}
+
+.share-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.share-screen {
+  background-color: rgb(9, 208, 9);
+  padding: 0px 12px;
+  border: 2px solid black;
+  border-radius: 0px 0px 0px 6px;
+}
+
+.share-screen > i {
+  color: aliceblue;
+  padding: 0px 12px;
+}
+
+.stop-share {
+  background-color: red;
+  padding: 0px 12px;
+  border: 2px solid black;
+  border-radius: 0px 0px 0px 6px;
+}
