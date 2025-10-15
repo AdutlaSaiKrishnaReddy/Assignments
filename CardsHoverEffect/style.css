@@ -1,0 +1,47 @@
+body {
+  height: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+
+.container {
+  border: 2px solid black;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-wrap: wrap;
+  width: 1120px;
+}
+
+.player {
+  width: 200px;
+  border: 2px solid red;
+  margin: 10px;
+  height: 200px;
+}
+
+.player > .info {
+  opacity: 0;
+  padding: 5px 10px;
+}
+
+.player > .info > span {
+  background-color: #9b9b9b;
+}
+
+.player > img {
+  width: 100%;
+}
+
+.player:hover img {
+  display: none;
+}
+
+.player:hover p {
+  opacity: 1;
+}
+
+.player:hover {
+  background-color: bisque;
+}
