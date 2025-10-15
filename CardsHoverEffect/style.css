@@ -19,15 +19,12 @@ body {
   border: 2px solid red;
   margin: 10px;
   height: 200px;
+  transition: all 0.5s linear;
 }
 
 .player > .info {
   opacity: 0;
   padding: 5px 10px;
-}
-
-.player > .info > span {
-  background-color: #9b9b9b;
 }
 
 .player > img {
