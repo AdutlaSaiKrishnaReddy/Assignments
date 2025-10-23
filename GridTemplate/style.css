@@ -1,0 +1,45 @@
+.container {
+  height: 500px;
+  /* border: 2px solid red; */
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+  margin: 130px;
+}
+
+.container > * {
+  /* background-color: black; */
+  /* color: white; */
+  padding: 20px;
+  border: 2px solid black;
+}
+
+.a,
+.b,
+.f {
+  background-color: green;
+}
+
+.c,
+.e,
+.g {
+  background-color: red;
+}
+
+.d,
+.h {
+  background-color: orange;
+}
+
+.b {
+  grid-column: 2/4;
+}
+
+.a {
+  grid-row: 1/4;
+}
+
+.f {
+  grid-row: 2/4;
+  grid-column: 4/5;
+}

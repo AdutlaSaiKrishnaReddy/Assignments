@@ -1,0 +1,37 @@
+.container {
+  height: 400px;
+  width: 900px;
+  /* border: 2px solid red; */
+  display: grid;
+  grid-template-columns: 175px 1fr;
+  grid-template-rows: repeat(5, 1fr);
+  gap: 12px;
+  margin: 150px 300px;
+}
+
+.container > * {
+  background-color: rgb(2, 196, 2);
+  padding: 20px;
+  color: black;
+}
+
+.header {
+  grid-column: 1/4;
+}
+
+.nav {
+  grid-row: 2/5;
+}
+
+.article {
+  grid-column: 2/4;
+  grid-row: 2/4;
+}
+
+.ads {
+  grid-column: 2/4;
+}
+
+.footer {
+  grid-column: 1/4;
+}
